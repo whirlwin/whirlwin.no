@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "nodemon": "node ./bin/whirlwin",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "nodemon": "node ./bin/start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/start"
   },
   "author": "",
   "license": "ISC",
