@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "nodemon": "node ./bin/start",
+    "nodemon": "nodemon ./bin/start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/start"
   },
@@ -13,6 +13,10 @@
   "dependencies": {
     "express": "^4.13.4",
     "gracepull": "^1.0.2",
+    "pug": "^2.0.0-rc.4",
     "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
   }
 }
