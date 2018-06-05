@@ -1,4 +1,4 @@
-const Index = require("./index/Index");
+const Index = require("./Index");
 
 class Router {
 

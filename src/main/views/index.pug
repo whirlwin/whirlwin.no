@@ -4,53 +4,11 @@ block content
   div.section.no-pad-bot
     div.container
       div.row
-        div.col.s8
-          each previewHtmlPost in previewHtmlPosts
-            div!=previewHtmlPost
-        div.col.s4
-          h5 Recent posts
-      //div.row.center
-      //    a.btn.green(href="https://github.com/whirlwin")
-      //      i.fab.fa-github
-      //    a.btn.green(href="https://stackoverflow.com/users/490315/whirlwin")
-      //      i.fab.fa-stack-overflow
-      //    a.btn.green(href="https://www.linkedin.com/in/whirlwin/")
-      //      i.fab.fa-linkedin
-      //    a.btn.green(href="https://www.facebook.com/whirlwin")
-      //      i.fab.fa-facebook
-  //div.container
-  //  div.section
-  //    div.row
-  //      div.col.s12.m4
-  //        div.icon-block
-  //          h2
-  //            i.material-icons.medium library_books
-  //          h5 Blog posts
-  //          p.light
-  //            | Check by for new blog posts
-  //      div.col.s12.m4
-  //        div.icon-block
-  //          h2
-  //            i.material-icons.medium announcement
-  //          h5 Shared news
-  //          ul
-  //            li
-  //              a(href="https://defn.io/2018/02/25/web-app-from-scratch-01/") Web App From Scratch
-  //            li
-  //              a(href="http://blog.kubernetes.io/2018/01/reporting-errors-using-kubernetes-events.html") Reporting Errors Using Kubernetes Events
-  //            li
-  //              a(href="https://www.cloudkarafka.com/blog/2016-11-30-part1-kafka-for-beginners-what-is-apache-kafka.html") What is Apache Kafka
-  //      div.col.s12.m4
-  //        div.icon-block
-  //          h2
-  //            i.material-icons.medium code
-  //          h5 Popular repositories
-  //          ul
-  //            li
-  //              a(href="https://github.com/kubernetes/kubernetes") Kubernetes
-  //            li
-  //              a(href="https://github.com/kubernetes/helm") Helm
-  //            li
-  //              a(href="https://github.com/fluent/fluentd") Fluentd
-  //            li
-  //              a(href="https://github.com/ansible/ansible") Ansible
+        div.col.s6
+          blockquote.embedly-card(data-card-controls='0')
+            h4
+              a(href='https://medium.com/@whirlwin/3-steps-for-faster-continuous-integration-e74e01e7e75') 3 Steps for faster Continuous Delivery - Øyvind Ødegård - Medium
+            p
+              | What is more frustrating than having weekly, quarterly or even annually releases for new features, knowing that your new business idea will be outdated even before it hits the crowd? In this article, I will highlight 3 of the most important aspects for making your deployment faster and more enjoyable for you, your team and ultimately your business or organization.
+          script(async='', src='//cdn.embedly.com/widgets/platform.js', charset='UTF-8')
+

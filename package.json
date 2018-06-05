@@ -16,7 +16,6 @@
     "gracepull": "1.0.2",
     "npm": "5.8.0",
     "pug": "2.0.0-rc.4",
-    "showdown": "1.8.6",
     "winston": "2.4.0"
   },
   "devDependencies": {
