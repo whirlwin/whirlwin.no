@@ -6,10 +6,9 @@ const mediumApiClient = new MediumApiClient();
 
 router.get("/", async (req, res) => {
     const feed = await mediumApiClient.getMyFeed();
-    const minimalPosts = feed.items.map((post) => {
-        const { description, content, enclosure, ...minimalPost } = post;
-        return minimalPost;
-    });
+    const minimalPosts = feed.items
+        .filter((post) => post.categories.length > 0)
+        .map((post) => ({ description, content, enclosure, ...minimalPost } = post));
     res.render("index", { minimalPosts });
 });
 
